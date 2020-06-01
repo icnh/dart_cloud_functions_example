@@ -1,0 +1,5 @@
+node_modules/
+ui-debug.log
+.dart_tool/
+.packages
+build/

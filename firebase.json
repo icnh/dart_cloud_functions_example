@@ -1,0 +1,27 @@
+{
+  "functions": {
+    "predeploy": "run build_runner build -o node:build",
+    "ignore": [
+      ".dart_tool",
+      ".packages",
+      "**/build/*.map",
+      "**/build/packages",
+      "build.yaml",
+      "node",
+      "node_modules",
+      "pubspec.*"
+    ],
+    "source": "functions"
+  },
+  "emulators": {
+    "functions": {
+      "port": 5001
+    },
+    "firestore": {
+      "port": 8080
+    },
+    "ui": {
+      "enabled": true
+    }
+  }
+}
