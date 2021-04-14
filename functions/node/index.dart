@@ -1,3 +1,4 @@
+// @dart=2.9
 import 'package:firebase_functions_interop/firebase_functions_interop.dart';
 
 void main() {
