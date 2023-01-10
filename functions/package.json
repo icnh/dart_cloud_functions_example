@@ -12,7 +12,7 @@
     "node": "8"
   },
   "dependencies": {
-    "firebase-admin": "^8.13.0",
+    "firebase-admin": "^11.4.1",
     "firebase-functions": "^3.11.0",
     "websocket-extensions": ">=0.1.4"
   },
